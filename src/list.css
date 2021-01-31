@@ -1,0 +1,12 @@
+.task_todo {
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: row;
+  //background-color: black;
+}
+
+.task_todo input {
+  margin-top: 25px;
+}
