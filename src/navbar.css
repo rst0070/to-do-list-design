@@ -1,0 +1,41 @@
+#navbar {
+  width: 50px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(166, 211, 251, 0.8);
+}
+#navbar p {
+  height: 50%;
+  margin: auto;
+  writing-mode: vertical;
+}
+#menu_button {
+  margin: auto;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 25px;
+  width: 35px;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+#menu_button div {
+  margin-top: 11px;
+  height: 0;
+  border-bottom: 3px solid black;
+  width: 100%;
+}
+#completed_list_button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 15px;
+  height: 20px;
+
+  border-bottom-width: 1px;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  transform: rotate(35deg);
+}
